@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+  <title>Assignment 4 - Friend Finder</title>
+  <link rel="stylesheet" href="css/pure-min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+ 
+  <link rel="stylesheet" href="css/layouts/side-menu.css">
+ 
+</head>
+
+<body>
+  <div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+      <!-- Hamburger icon -->
+      <span></span>
+    </a>
+    <div id="menu">
+      <div class="pure-menu">
+        <a class="pure-menu-heading" href="#">SomeSocial</a>
+        <ul class="pure-menu-list">
+          <li class="pure-menu-item home"><a href="#" class="pure-menu-link">Home</a></li>
+          <li class="pure-menu-item friends"><a href="#" class="pure-menu-link">Friends</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+      <div class="header">
+        <h1>Some Social App</h1>
+        <h2>For all your social needs</h2>
+      </div>
+      <div class="content"></div>
+    </div>
+  </div>
+  <script src="js/ui.js"></script>
+  <script src="js/main.js"></script>
+  <!-- SAMPLE FRIENDS LIST RENDERING
+    <div class="pure-menu custom-restricted-width">
+        <span class="pure-menu-heading">Friends</span>
+
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link" data-id="3">Clark Kent</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link" data-id="1">Jane Doe</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link" data-id="2">Sally Anne</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link" data-id="4">Tom Jones</a></li>
+        </ul>
+    </div>
+    -->
+  <!-- SAMPLE INDIVIDUAL FRIEND RENDERING
+    <div class="friend">
+        <div class="identity">
+            <img src="img/jane_doe.jpg" class="photo" />
+            <h2 class="name">Jane Doe</h2>
+            <ul>
+                <li><span class="label">email:</span> janed@example.com</li>
+                <li><span class="label">hometown:</span> edmonton, ab</li>
+            </ul>
+        </div>
+        <p class="bio">
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum semper orci eu nibh molestie feugiat. Integer mollis rhoncus nisl at condimentum. Vestibulum aliquet et magna mollis tempor. Vivamus urna augue, luctus sit amet lorem non, porttitor elementum enim. Proin volutpat odio sed magna cursus, sit amet tincidunt lectus congue. Praesent scelerisque volutpat purus sit amet efficitur.
+        </p>
+    </div>
+    -->
+</body>
+
+</html>
